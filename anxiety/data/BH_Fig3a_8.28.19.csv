@@ -1,0 +1,99 @@
+﻿Benjamini-Hochberg Procedure,,,,,,
+i = the individual p-value’s rank,Q = the false discovery rate 0.25,,,,,
+m = total number of tests,(i/m)Q = BH critival value,,,,,
+,,,,,,
+Figure 3a,,,,,,
+Male students ,,,,,,
+Variable,r,p value,i,m,(i/m)Q,Signifiicant 
+"cor(Pre_SNA, Pre_CEN_DMN)",0.366,0.006,1,12,0.020833333,Yes
+"cor(Pre_MA, Pre_DMN_SN)",0.355,0.008,2,12,0.041666667,Yes
+"cor(Pre_BK, Pre_SN_CEN)",-0.343,0.010,3,12,0.0625,Yes
+"cor(Pre_MA, Pre_CEN_DMN)",0.325,0.015,4,12,0.083333333,Yes
+"cor(Pre_ScA, Pre_DMN_SN)",0.311,0.021,5,12,0.104166667,Yes
+"cor(Pre_ScA, Pre_CEN_DMN)",0.275,0.042,6,12,0.125,Yes
+"cor(Pre_SNA, Pre_DMN_SN)",0.258,0.057,7,12,0.145833333,No
+"cor(Pre_BK, Pre_CEN_DMN)",0.175,0.202,8,12,0.166666667,No
+"cor(Pre_SNA, Pre_SN_CEN)",-0.100,0.470,9,12,0.1875,No
+"cor(Pre_MA, Pre_SN_CEN)",-0.034,0.807,10,12,0.208333333,No
+"cor(Pre_BK, Pre_DMN_SN)",0.025,0.857,11,12,0.229166667,No
+"cor(Pre_ScA, Pre_SN_CEN)",-0.001,0.994,12,12,0.25,No
+,,,,,,
+Figure 3a,,,,,,
+Male students ,,,,,,
+Variable,r,p value,i,m,(i/m)Q,Signifiicant 
+"cor(Post_SNA, Post_DMN_SN)",0.435,0.001,1,12,0.020833333,Yes
+"cor(Post_SNA, Post_CEN_DMN)",0.381,0.004,2,12,0.041666667,Yes
+"cor(Post_MA, Post_DMN_SN)",0.332,0.013,3,12,0.0625,Yes
+"cor(Post_ScA, Post_DMN_SN)",0.205,0.133,4,12,0.083333333,No
+"cor(Post_BK, Post_SN_CEN)",-0.155,0.259,5,12,0.104166667,No
+"cor(Post_MA, Post_CEN_DMN)",0.134,0.330,6,12,0.125,No
+"cor(Post_SNA,  Post_SN_CEN)",0.131,0.342,7,12,0.145833333,No
+"cor(Post_ScA, Post_CEN_DMN)",0.083,0.549,8,12,0.166666667,No
+"cor(Post_BK, Post_CEN_DMN)",0.063,0.646,9,12,0.1875,No
+"cor(Post_BK, Post_DMN_SN)",0.041,0.766,10,12,0.208333333,No
+"cor(Post_ScA, Post_SN_CEN)",0.028,0.841,11,12,0.229166667,No
+"cor(Post_MA, Post_SN_CEN)",-0.017,0.902,12,12,0.25,No
+,,,,,,
+Figure 3a,,,,,,
+Female students ,,,,,,
+Variable,r,p value,i,m,(i/m)Q,Signifiicant 
+"cor(Pre_ScA, Pre_DMN_SN)",0.306,0.039,1,12,0.020833333,No
+"cor(Pre_BK, Pre_SN_CEN)",0.241,0.106,2,12,0.041666667,No
+"cor(Pre_MA, Pre_CEN_DMN)",0.180,0.231,3,12,0.0625,No
+"cor(Pre_ScA, Pre_CEN_DMN)",0.165,0.273,4,12,0.083333333,No
+"cor(Pre_BK, Pre_DMN_SN)",0.130,0.391,5,12,0.104166667,No
+"cor(Pre_SNA, Pre_CEN_DMN)",0.123,0.417,6,12,0.125,No
+"cor(Pre_ScA, Pre_SN_CEN)",0.093,0.538,7,12,0.145833333,No
+"cor(Pre_MA, Pre_SN_CEN)",-0.089,0.556,8,12,0.166666667,No
+"cor(Pre_BK, Pre_CEN_DMN)",0.085,0.576,9,12,0.1875,No
+"cor(Pre_SNA, Pre_SN_CEN)",-0.066,0.663,10,12,0.208333333,No
+"cor(Pre_SNA, Pre_DMN_SN)",0.041,0.787,11,12,0.229166667,No
+"cor(Pre_MA, Pre_DMN_SN)",0.034,0.822,12,12,0.25,No
+,,,,,,
+Figure 3a,,,,,,
+Female students ,,,,,,
+Variable,r,p value,i,m,(i/m)Q,Signifiicant 
+"cor(Post_SNA, Post_SN_CEN)",-0.213,0.155,1,12,0.020833333,No
+"cor(Post_MA, Post_CEN_DMN)",0.194,0.197,2,12,0.041666667,No
+"cor(Post_BK, Post_CEN_DMN)",0.171,0.257,3,12,0.0625,No
+"cor(Post_SNA, Post_DMN_SN)",-0.170,0.260,4,12,0.083333333,No
+"cor(Post_ScA, Post_DMN_SN)",0.149,0.323,5,12,0.104166667,No
+"cor(Post_BK, Post_DMN_SN)",0.135,0.372,6,12,0.125,No
+"cor(Post_MA, Post_DMN_SN)",0.117,0.438,7,12,0.145833333,No
+"cor(Post_ScA, Post_CEN_DMN)",0.092,0.544,8,12,0.166666667,No
+"cor(Post_SNA, Post_CEN_DMN)",-0.088,0.560,9,12,0.1875,No
+"cor(Post_MA, Post_SN_CEN)",-0.047,0.757,10,12,0.208333333,No
+"cor(Post_BK, Post_SN_CEN)",0.023,0.878,11,12,0.229166667,No
+"cor(Post_ScA, Post_SN_CEN)",-0.005,0.976,12,12,0.25,No
+,,,,,,
+Figure 3a,,,,,,
+Male students post > pre,,,,,,
+Variable,r,p value,i,m,(i/m)Q,Signifiicant 
+"cor(∆MA, ∆SN-CEN) ",-0.361,0.007,1,12,0.020833333,Yes
+"cor(∆MA, ∆DMN_SN) ",-0.275,0.042,2,12,0.041666667,No
+"cor(∆SNA, ∆DMN_SN) ",-0.231,0.090,3,12,0.0625,No
+"cor(∆BK, ∆SN-CEN) ",-0.205,0.133,4,12,0.083333333,No
+"cor(∆ScA, ∆SN-CEN) ",-0.180,0.190,5,12,0.104166667,No
+"cor(∆BK, ∆DMN-SN) ",0.162,0.237,6,12,0.125,No
+"cor(∆BK, ∆CEN-DMN) ",0.160,0.242,7,12,0.145833333,No
+"cor(∆ScA, ∆DMN-SN) ",-0.115,0.404,8,12,0.166666667,No
+"cor(∆SNA, ∆CEN-DMN) ",-0.070,0.612,9,12,0.1875,No
+"cor(∆ScA, ∆CEN-DMN) ",-0.046,0.741,10,12,0.208333333,No
+"cor(∆SNA, ∆SN-CEN) ",-0.041,0.764,11,12,0.229166667,No
+"cor(∆MA, ∆CEN-DMN) ",-0.015,0.915,12,12,0.25,No
+,,,,,,
+Figure 3a,,,,,,
+Female students post > pre,,,,,,
+Variable,r,p value,i,m,(i/m)Q,Signifiicant 
+"cor(∆SNA, ∆SN-CEN) ",-0.459,0.001,1,12,0.020833333,Yes
+"cor(∆BK, ∆SN-CEN) ",-0.284,0.056,2,12,0.041666667,No
+"cor(∆ScA, ∆SN-CEN) ",-0.131,0.384,3,12,0.0625,No
+"cor(∆SNA, ∆DMN_SN) ",-0.131,0.386,4,12,0.083333333,No
+"cor(∆MA, ∆CEN-DMN) ",0.130,0.389,5,12,0.104166667,No
+"cor(∆MA, ∆DMN_SN) ",0.123,0.416,6,12,0.125,No
+"cor(∆BK, ∆DMN-SN) ",-0.079,0.602,7,12,0.145833333,No
+"cor(∆MA, ∆SN-CEN) ",-0.057,0.707,8,12,0.166666667,No
+"cor(∆SNA, ∆CEN-DMN) ",-0.032,0.835,9,12,0.1875,No
+"cor(∆ScA, ∆DMN-SN) ",0.028,0.851,10,12,0.208333333,No
+"cor(∆BK, ∆CEN-DMN) ",-0.025,0.868,11,12,0.229166667,No
+"cor(∆ScA, ∆CEN-DMN) ",0.018,0.908,12,12,0.25,No
